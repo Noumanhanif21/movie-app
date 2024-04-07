@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:movie_app/search/widgets/movies_grid.dart';
+import 'package:movie_app/screens/movie/widgets/movies_grid.dart';
 import 'package:movie_app/utils/constants/padding_constants.dart';
 import 'package:movie_app/utils/widgets/my_bottom_nav_bar.dart';
 import 'package:movie_app/utils/widgets/my_search_bar.dart';
