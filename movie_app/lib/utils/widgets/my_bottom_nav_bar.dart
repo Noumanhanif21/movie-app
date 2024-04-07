@@ -19,7 +19,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
     }
 
     return SizedBox(
-      height: 70.h,
+      height: 90.h,
       child: ClipRRect(
         borderRadius: BorderRadius.circular(20),
         child: Theme(

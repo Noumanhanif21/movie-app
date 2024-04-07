@@ -30,7 +30,7 @@ class HallScreen extends StatelessWidget {
               style: TextStyle(
                 fontSize: 12.sp,
                 fontWeight: FontWeight.w500,
-                color: Color.fromRGBO(97, 195, 242, 1),
+                color: const Color.fromRGBO(97, 195, 242, 1),
               ),
             ),
           ],
@@ -61,83 +61,83 @@ class HallScreen extends StatelessWidget {
                 children: [
                   TextButton(
                     onPressed: () {},
-                    child: Text("4 Mar"),
                     style: TextButton.styleFrom(
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
                       ),
-                      backgroundColor: Color.fromRGBO(97, 195, 242, 1),
+                      backgroundColor: const Color.fromRGBO(97, 195, 242, 1),
                       foregroundColor: Colors.white,
                       minimumSize: Size(67.w, 32.h),
                     ),
+                    child: const Text("4 Mar"),
                   ),
                   fixedHorzSpacing(10),
                   TextButton(
                     onPressed: () {},
-                    child: Text("5 Mar"),
                     style: TextButton.styleFrom(
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
                       ),
-                      backgroundColor: Color.fromRGBO(166, 166, 166, 0.1),
+                      backgroundColor: const Color.fromRGBO(166, 166, 166, 0.1),
                       disabledBackgroundColor:
-                          Color.fromRGBO(166, 166, 166, 0.1),
+                          const Color.fromRGBO(166, 166, 166, 0.1),
                       disabledForegroundColor:
                           Theme.of(context).colorScheme.primary,
                       foregroundColor: Theme.of(context).colorScheme.primary,
                       minimumSize: Size(67.w, 32.h),
                     ),
+                    child: const Text("5 Mar"),
                   ),
                   fixedHorzSpacing(10),
                   TextButton(
                     onPressed: () {},
-                    child: Text("6 Mar"),
                     style: TextButton.styleFrom(
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
                       ),
-                      backgroundColor: Color.fromRGBO(166, 166, 166, 0.1),
+                      backgroundColor: const Color.fromRGBO(166, 166, 166, 0.1),
                       disabledBackgroundColor:
-                          Color.fromRGBO(166, 166, 166, 0.1),
+                          const Color.fromRGBO(166, 166, 166, 0.1),
                       disabledForegroundColor:
                           Theme.of(context).colorScheme.primary,
                       foregroundColor: Theme.of(context).colorScheme.primary,
                       minimumSize: Size(67.w, 32.h),
                     ),
+                    child: const Text("6 Mar"),
                   ),
                   fixedHorzSpacing(10),
                   TextButton(
                     onPressed: () {},
-                    child: Text("7 Mar"),
                     style: TextButton.styleFrom(
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
                       ),
-                      backgroundColor: Color.fromRGBO(166, 166, 166, 0.1),
+                      backgroundColor: const Color.fromRGBO(166, 166, 166, 0.1),
                       disabledBackgroundColor:
-                          Color.fromRGBO(166, 166, 166, 0.1),
+                          const Color.fromRGBO(166, 166, 166, 0.1),
                       disabledForegroundColor:
                           Theme.of(context).colorScheme.primary,
                       foregroundColor: Theme.of(context).colorScheme.primary,
                       minimumSize: Size(67.w, 32.h),
                     ),
+                    child: const Text("7 Mar"),
                   ),
                   fixedHorzSpacing(10),
                   TextButton(
                     onPressed: () {},
-                    child: Text("8 Mar"),
                     style: TextButton.styleFrom(
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
                       ),
-                      backgroundColor: Color.fromRGBO(166, 166, 166, 0.1),
+                      backgroundColor: const Color.fromRGBO(166, 166, 166, 0.1),
                       disabledBackgroundColor:
-                          Color.fromRGBO(166, 166, 166, 0.1),
+                          const Color.fromRGBO(166, 166, 166, 0.1),
                       disabledForegroundColor:
                           Theme.of(context).colorScheme.primary,
                       foregroundColor: Theme.of(context).colorScheme.primary,
                       minimumSize: Size(67.w, 32.h),
                     ),
+                    child: const Text("8 Mar"),
                   ),
                 ],
               ),
@@ -168,7 +168,7 @@ class HallScreen extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 12.sp,
                               fontWeight: FontWeight.w400,
-                              color: Color.fromRGBO(143, 143, 143, 1),
+                              color: const Color.fromRGBO(143, 143, 143, 1),
                             ),
                           ),
                         ],
@@ -180,7 +180,7 @@ class HallScreen extends StatelessWidget {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(12),
                           border: Border.all(
-                            color: Color.fromRGBO(97, 195, 242, 1),
+                            color: const Color.fromRGBO(97, 195, 242, 1),
                           ),
                         ),
                         child: Padding(
@@ -199,7 +199,7 @@ class HallScreen extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 12.sp,
                               fontWeight: FontWeight.w500,
-                              color: Color.fromRGBO(143, 143, 143, 1),
+                              color: const Color.fromRGBO(143, 143, 143, 1),
                             ),
                           ),
                           Text(
@@ -215,7 +215,7 @@ class HallScreen extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 12.sp,
                               fontWeight: FontWeight.w500,
-                              color: Color.fromRGBO(143, 143, 143, 1),
+                              color: const Color.fromRGBO(143, 143, 143, 1),
                             ),
                           ),
                           Text(
@@ -250,7 +250,7 @@ class HallScreen extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 12.sp,
                               fontWeight: FontWeight.w400,
-                              color: Color.fromRGBO(143, 143, 143, 1),
+                              color: const Color.fromRGBO(143, 143, 143, 1),
                             ),
                           ),
                         ],
@@ -262,7 +262,7 @@ class HallScreen extends StatelessWidget {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(12),
                           border: Border.all(
-                            color: Color.fromRGBO(97, 195, 242, 1),
+                            color: const Color.fromRGBO(97, 195, 242, 1),
                           ),
                         ),
                         child: Padding(
@@ -281,7 +281,7 @@ class HallScreen extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 12.sp,
                               fontWeight: FontWeight.w500,
-                              color: Color.fromRGBO(143, 143, 143, 1),
+                              color: const Color.fromRGBO(143, 143, 143, 1),
                             ),
                           ),
                           Text(
@@ -297,7 +297,7 @@ class HallScreen extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 12.sp,
                               fontWeight: FontWeight.w500,
-                              color: Color.fromRGBO(143, 143, 143, 1),
+                              color: const Color.fromRGBO(143, 143, 143, 1),
                             ),
                           ),
                           Text(
@@ -315,22 +315,22 @@ class HallScreen extends StatelessWidget {
                 ],
               ),
             ),
-            fixedVertSpacing(300),
+            const Spacer(),
             TextButton(
               onPressed: () {
                 Get.toNamed("/seats_screen");
               },
-              child: Text(
-                "Select Seats",
-                style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600),
-              ),
               style: TextButton.styleFrom(
                 foregroundColor: Colors.white,
-                backgroundColor: Color.fromRGBO(97, 195, 242, 1),
+                backgroundColor: const Color.fromRGBO(97, 195, 242, 1),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12),
                 ),
                 minimumSize: Size(323.w, 50.h),
+              ),
+              child: const Text(
+                "Select Seats",
+                style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600),
               ),
             ),
           ],

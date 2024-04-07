@@ -28,7 +28,7 @@ class SeatsScreen extends StatelessWidget {
               style: TextStyle(
                 fontSize: 12.sp,
                 fontWeight: FontWeight.w500,
-                color: Color.fromRGBO(97, 195, 242, 1),
+                color: const Color.fromRGBO(97, 195, 242, 1),
               ),
             ),
           ],
@@ -49,7 +49,7 @@ class SeatsScreen extends StatelessWidget {
                     children: [
                       Padding(
                         padding: const EdgeInsets.only(top: 26),
-                        child: Container(
+                        child: SizedBox(
                           width: 6.w,
                           height: 190.h,
                           // decoration: BoxDecoration(
@@ -66,7 +66,7 @@ class SeatsScreen extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Container(
+                      SizedBox(
                         height: 190.h,
                         width: 320.w,
                         child: Padding(
@@ -104,7 +104,7 @@ class SeatsScreen extends StatelessWidget {
                     children: [
                       Row(
                         children: [
-                          Icon(
+                          const Icon(
                             Icons.desktop_mac,
                             color: Color.fromRGBO(205, 157, 15, 1),
                           ),
@@ -114,17 +114,17 @@ class SeatsScreen extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 12.sp,
                               fontWeight: FontWeight.w500,
-                              color: Color.fromRGBO(143, 143, 143, 1),
+                              color: const Color.fromRGBO(143, 143, 143, 1),
                             ),
                           ),
                         ],
                       ),
-                      Spacer(),
+                      const Spacer(),
                       Padding(
                         padding: const EdgeInsets.only(right: 5),
                         child: Row(
                           children: [
-                            Icon(
+                            const Icon(
                               Icons.desktop_mac,
                               color: Color.fromRGBO(166, 166, 166, 1),
                             ),
@@ -134,7 +134,7 @@ class SeatsScreen extends StatelessWidget {
                               style: TextStyle(
                                 fontSize: 12.sp,
                                 fontWeight: FontWeight.w500,
-                                color: Color.fromRGBO(143, 143, 143, 1),
+                                color: const Color.fromRGBO(143, 143, 143, 1),
                               ),
                             ),
                           ],
@@ -151,7 +151,7 @@ class SeatsScreen extends StatelessWidget {
                     children: [
                       Row(
                         children: [
-                          Icon(
+                          const Icon(
                             Icons.desktop_mac,
                             color: Color.fromRGBO(86, 76, 163, 1),
                           ),
@@ -161,15 +161,15 @@ class SeatsScreen extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 12.sp,
                               fontWeight: FontWeight.w500,
-                              color: Color.fromRGBO(143, 143, 143, 1),
+                              color: const Color.fromRGBO(143, 143, 143, 1),
                             ),
                           ),
                         ],
                       ),
-                      Spacer(),
+                      const Spacer(),
                       Row(
                         children: [
-                          Icon(
+                          const Icon(
                             Icons.desktop_mac,
                             color: Color.fromRGBO(97, 195, 242, 1),
                           ),
@@ -179,7 +179,7 @@ class SeatsScreen extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 12.sp,
                               fontWeight: FontWeight.w500,
-                              color: Color.fromRGBO(143, 143, 143, 1),
+                              color: const Color.fromRGBO(143, 143, 143, 1),
                             ),
                           ),
                         ],
@@ -193,6 +193,14 @@ class SeatsScreen extends StatelessWidget {
                   children: [
                     TextButton(
                       onPressed: () {},
+                      style: TextButton.styleFrom(
+                        // minimumSize: Size(110.w, 30.h),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        backgroundColor:
+                            const Color.fromRGBO(166, 166, 166, 0.1),
+                      ),
                       child: SizedBox(
                         width: 90.w,
                         height: 30.h,
@@ -222,23 +230,24 @@ class SeatsScreen extends StatelessWidget {
                           ],
                         ),
                       ),
-                      style: TextButton.styleFrom(
-                        // minimumSize: Size(110.w, 30.h),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        backgroundColor: Color.fromRGBO(166, 166, 166, 0.1),
-                      ),
                     ),
                   ],
                 ),
               ],
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 SizedBox(
                   child: TextButton(
                     onPressed: () {},
+                    style: TextButton.styleFrom(
+                      minimumSize: Size(108.w, 50.h),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      backgroundColor: const Color.fromRGBO(166, 166, 166, 0.1),
+                    ),
                     child: Column(
                       children: [
                         Text(
@@ -257,31 +266,23 @@ class SeatsScreen extends StatelessWidget {
                         ),
                       ],
                     ),
-                    style: TextButton.styleFrom(
-                      minimumSize: Size(108.w, 50.h),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      backgroundColor: Color.fromRGBO(166, 166, 166, 0.1),
-                    ),
                   ),
                 ),
-                fixedHorzSpacing(10),
                 TextButton(
                   onPressed: () {},
+                  style: TextButton.styleFrom(
+                    minimumSize: Size(210.w, 50.h),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    backgroundColor: const Color.fromRGBO(97, 195, 242, 1),
+                  ),
                   child: Text(
                     "Proceed to pay",
                     style: TextStyle(
                         fontSize: 14.sp,
                         fontWeight: FontWeight.w600,
                         color: Colors.white),
-                  ),
-                  style: TextButton.styleFrom(
-                    minimumSize: Size(210.w, 50.h),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    backgroundColor: Color.fromRGBO(97, 195, 242, 1),
                   ),
                 ),
               ],
